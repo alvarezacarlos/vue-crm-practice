@@ -1,0 +1,22 @@
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  transition: background-color 0.3s;
+
+  &.dark {
+    background-color: var(--dark-bg);
+
+    :deep(.v-card) {
+      background-color: #0a2830;
+      color: var(--white);
+    }
+  }
+}
+
+.auth-card {
+  max-width: 400px;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+:root {
+  --primary: #06414D;
+  --secondary: #FFC387;
+  --white: #FFFFFF;
+  --dark-bg: #02191E;  
+  --white: #ffffff;  
+  --accent: #06414d;
+  --gray: #b9b7b7;
+  --success: #8ae250;
+  --error: #fc4b6c;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.theme--dark {
+  background-color: var(--dark-bg);
+  color: var(--white);
+}
+
+.theme--light {
+  background-color: var(--white);
+  color: var(--primary);
+}
